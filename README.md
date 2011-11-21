@@ -15,6 +15,5 @@ This example is a fork from the [Spine Contacts](http://github.com/maccman/spine
 3. Install [Hem](http://spinejs.com/docs/hem): `npm install -g hem`
 4. Build: `hem build`
 5. Create a virtual host and point to the public folder
-6. Create the database structure and change the
+6. Create the database structure, the connection information are inside the file: public/contacts.php 
 7. Open [http://spinecontacts.dev](http://spinecontacts.dev)
-
