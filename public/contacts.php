@@ -9,7 +9,6 @@ class Contacts
 
     function __construct()
     {
-        echo "olá";
         switch ($_SERVER["REQUEST_METHOD"])
         {
             case "GET":
@@ -87,7 +86,7 @@ class Contacts
         mysql_connect($this->localhost, $this->username, $this->password);
         mysql_select_db($this->db);
 
-        $SQL = "INSERT INTO contacts (id) VALUES ('" . $data['id'] . "')";
+        $SQL = "INSERT INTO contacts (id, name, email) VALUES ('" . $data['id'] . "','" . $data['name'] . "','" . $data['email'] . "')";
         $result = mysql_query( $SQL ) or die("Couldn't execute query.".mysql_error());
 
         return ;

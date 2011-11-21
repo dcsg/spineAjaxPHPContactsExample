@@ -22,6 +22,8 @@ class Contacts extends Spine.Controller
       '/contacts/:id': (params) ->
         @sidebar.active(params)
         @main.show.active(params)
+      '/contact/create': ->
+        @main.create.active()
     
     divide = $('<div />').addClass('vdivide')
     

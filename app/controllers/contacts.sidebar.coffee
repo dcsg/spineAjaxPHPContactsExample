@@ -42,7 +42,6 @@ class Sidebar extends Spine.Controller
     @navigate '/contacts', item.id
     
   create: ->
-    item = Contact.create()
-    @navigate('/contacts', item.id, 'edit')
+    @navigate('/contact/create')
     
 module.exports = Sidebar
