@@ -5,7 +5,7 @@ class Contact extends Spine.Model
   
   @extend Spine.Model.Ajax
 
-  @url: "/coffee.php/companies"
+  @url: "/contacts.php/contacts"
   
   @filter: (query) ->
     return @all() unless query
