@@ -1,7 +1,8 @@
 Spine Contacts Example with AJAX and PHP
 ========================================
 
-This example is a fork from the [Spine Contacts](http://github.com/maccman/spine.contacts) Example for the [Spine](http://github.com/maccman/spine) JavaScript library.
+This example is a fork from the [Spine Contacts Example](http://github.com/maccman/spine.contacts) for the [Spine](http://github.com/maccman/spine) JavaScript library.
+
 
 ##Features
 
