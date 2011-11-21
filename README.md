@@ -16,5 +16,5 @@ This example is a fork from the [Spine Contacts Example](http://github.com/maccm
 3. Install [Hem](http://spinejs.com/docs/hem): `npm install -g hem`
 4. Build: `hem build`
 5. Create a virtual host and point to the public folder
-6. Create the database structure, the connection information are inside the file: public/contacts.php 
+6. Create the database structure. The dump file is inside the Resources folder and the connection information are inside the file: public/contacts.php
 7. Open [http://spinecontacts.dev](http://spinecontacts.dev)
