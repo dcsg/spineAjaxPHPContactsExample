@@ -58,7 +58,7 @@ class Contacts
         mysql_connect($this->localhost, $this->username, $this->password);
         mysql_select_db($this->db);
 
-        $SQL = "SELECT id, name, email FROM contacts WHERE id = " + $id;
+        $SQL = "SELECT id, name, email FROM contacts WHERE id = " . $id;
         $result = mysql_query( $SQL ) or die("Couldn't execute query.".mysql_error());
 
         $resultArray = array();
